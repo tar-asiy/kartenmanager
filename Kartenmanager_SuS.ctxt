@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Kartenmanager_SuS
+comment0.text=\n\ Kartenmanager_SuS\:\n\ Verwendung\ einer\ Liste<Karte>\ (aus\ sum.strukturen.Liste)\ \n\ anstelle\ eines\ Arrays.\ \n\ Die\ GUI\ wurde\ beibehalten\ (Stapelgr.,\ Wert,\ Farbe,\ Position\ usw.).\n\ -\ Einf\u00FCgen/Entfernen\ mit\ Liste\n\ -\ Sortieren/Erneuern\ (Platzhalter)\ \n\ -\ Zeichnen\ ab\ y\=150\n
+comment1.params=
+comment1.target=Kartenmanager_SuS()
+comment2.params=i
+comment2.target=void\ initialisiereKarten(int)
+comment2.text=\n\ initialisiereKarten(i)\:\n\ \ Legt\ kartenAnzahl\ Karten\ an.\n\ \ Jede\ Karte\ zuf\u00E4llig\ \=>\ wert\ in\ [1..13],\ farbe\ in\ [0..3]\n
+comment3.params=index\ x\ y
+comment3.target=void\ zeichneKarten(int,\ int,\ int)
+comment3.text=\n\ zeichneKarten(index,\ x,\ y)\:\n\ \ Durchl\u00E4uft\ die\ Liste\ per\ gehZuPosition(index),\n\ \ holt\ das\ aktuelleElement()\ \=>\ (wert,\ farbe),\n\ \ zeichnet\ die\ Karte.\n
+comment4.params=x\ y\ name
+comment4.target=void\ zeichneEineKarte(int,\ int,\ java.lang.String)
+comment5.params=
+comment5.target=void\ loescheAnzeige()
+comment5.text=\n\ Vorgabe\:\n\ stift.radiere();\n\ zeichneKarten(0,50,150);\n\ stift.normal();\n
+comment6.params=
+comment6.target=void\ Sort_Klick()
+comment7.params=
+comment7.target=void\ Update_Klick()
+comment8.params=
+comment8.target=void\ Einfuegen_Klick()
+comment9.params=
+comment9.target=void\ Entfernen_Klick()
+numComments=10
